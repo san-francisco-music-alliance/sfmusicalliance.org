@@ -1,17 +1,15 @@
 ---
-published: true
 layout: default
+published: true
 permalink: /contact
-title: 'Contact'
+title: Contact
 order: 0
-color: '#5fc9f8'
+color: "#5fc9f8"
 ---
-
-# Contact
 
 Like to come in contact with us? Please send us an email.
 
-<form class="contact" action="https://formspree.io/pierrereimertz@gmail.com"
+<form class="contact" action="https://formspree.io/joedbarham@gmail.com"
       method="POST">
   <input id="email" type="email" name="_replyto" placeholder="Enter your email" required>
   <input type="hidden" name="_next" value="/thanks" />
