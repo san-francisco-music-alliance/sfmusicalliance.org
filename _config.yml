@@ -6,6 +6,10 @@ kramdown:
 highlighter: rouge
 prose:
   ignore:
+    - .gitignore
+    - /css
+    - /sass
+    - /img
     - index.md
     - _config.yml
     - /_layouts
