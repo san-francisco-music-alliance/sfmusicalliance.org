@@ -6,10 +6,15 @@ kramdown:
 highlighter: rouge
 prose:
   ignore:
+    - CNAME
+    - Gemfile
+    - package.json
+    - .gitignore
     - .gitignore
     - /css
     - /sass
     - /img
+    - /js
     - index.md
     - _config.yml
     - /_layouts
