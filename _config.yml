@@ -5,6 +5,8 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 prose:
+  siteurl: 'http://sfmusicalliance.com/'
+  media: media
   ignore:
     - CNAME
     - Gemfile
