@@ -1,0 +1,47 @@
+form.contact {
+  text-align: center; }
+  form.contact input,
+  form.contact textarea {
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    border: 5px solid transparent;
+    min-height: 50px;
+    background-color: #5fc9f8;
+    color: white;
+    padding: 20px;
+    outline: none;
+    transition: 200ms; }
+    form.contact input::-webkit-input-placeholder,
+    form.contact textarea::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: white; }
+    form.contact input::-moz-placeholder,
+    form.contact textarea::-moz-placeholder {
+      /* Firefox 19+ */
+      color: white; }
+    form.contact input:-ms-input-placeholder,
+    form.contact textarea:-ms-input-placeholder {
+      /* IE 10+ */
+      color: white; }
+    form.contact input:-moz-placeholder,
+    form.contact textarea:-moz-placeholder {
+      /* Firefox 18- */
+      color: white; }
+    form.contact input:focus,
+    form.contact textarea:focus {
+      margin-left: 3%; }
+  form.contact textarea {
+    resize: none;
+    height: 150px; }
+  form.contact input[type="submit"] {
+    text-align: center;
+    background-color: #fc3158;
+    color: white;
+    transition: 200ms; }
+    form.contact input[type="submit"]:focus {
+      margin-left: 1%;
+      width: 98%; }
+    form.contact input[type="submit"]:active {
+      margin-left: 3%;
+      width: 94%; }

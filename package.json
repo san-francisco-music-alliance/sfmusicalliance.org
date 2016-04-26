@@ -1,0 +1,24 @@
+{
+  "name": "julian-sider",
+  "version": "1.0.0",
+  "description": "Starter is a barebones starting point for responsive sites built on Jekyll and with site management in [prose](http://prose.io). To get started, Fork this repo and [install Jekyll](http://jekyllrb.com/docs/installation).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass sass/main.scss -o css",
+    "css:watch": "npm run css && node-sass sass/main.scss -wo css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prose/starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prose/starter/issues"
+  },
+  "homepage": "https://github.com/prose/starter#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2"
+  }
+}

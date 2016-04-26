@@ -1,0 +1,92 @@
+---
+title: 'SFMA.com'
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SFMA.com {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
+  <meta charset='UTF-8'/>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+  <link href='https://fonts.googleapis.com/css?family=Futura:400,600,300' rel='stylesheet' type='text/css'>
+  <link href='{{site.baseurl}}/css/main.css' rel='stylesheet' />
+</head>
+<body class="{% if page.title != 'index' %} {{page.permalink | replace_first: '/','' }} {% else %}index{% endif %}">
+  <div class="container">
+    <header  class="three-d">
+        <div class="circle">
+          <div class="location-box">{{ page.title }}</div>
+          <a href="/">
+            <div class="back-box">< go back</div>
+          </a>
+        </div>
+        <img class="logo" src="/img/logo_text.svg" alt="">
+        <img class="wave" src="/img/wave_color_2.svg" alt="">
+    </header>
+
+    <nav class="nav nav-inline">
+    {% assign sortedPages = site.pages | sort:"order" %}
+    {% for page in sortedPages %}
+      {% if page.title !=  'index' and page.hidden != true %}
+        <div class="nav-item">
+          <style>
+
+            .{{ page.permalink  | replace_first: '/','' }} .location-box {
+              background-color: {{ page.color }};
+            }
+            a[href="{{ page.permalink }}"] {
+              background-color: {{ page.color }};
+              border-bottom: 2px solid white;
+            }
+
+            body.{{page.permalink | replace_first: '/','' }} a[href="{{ page.permalink }}"],
+            a[href="{{ page.permalink }}"]:hover {
+              color:  {{ page.color }};
+              border-bottom: 2px solid {{ page.color }};
+              background-color: white;
+            }
+          </style>
+          <a href="{{ page.permalink }}">{{ page.title }}</a>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+    </nav>
+    <main class='container-fluid'>
+      <header>
+        {% if page.title !=  'index' %}
+          <style>
+            .header-title {
+              background-color: {{page.color}};
+            }
+            .reimertz-btn {
+              color: white;
+              background-color: {{ page.color }};
+              border-bottom: 2px solid {{ page.color }};
+            }
+            .reimertz-btn:hover {
+              color:  {{ page.color }};
+              border-bottom: 2px solid {{ page.color }};
+              background-color: white;
+            }
+
+          </style>
+
+        {% endif %}
+      </header>
+      {{content}}
+    </main>
+  </div>
+  <footer>
+    page made by <a href="http://twitter.com/reimertz" target="_blank">@reimertz</a>
+  </footer>
+
+  <script src="{{site.baseurl}}/js/scrollCheck.js"></script>
+  <script src="{{site.baseurl}}/js/translater.js"></script>
+  <style>
+    body.{{ page.permalink | replace_first: '/','' }} {
+      color: {{ page.color }};
+    }
+  </style>
+</body>
