@@ -18,8 +18,10 @@ body {
 }
 
 main {
+  position: relative;
   max-width: 730px;
   margin-top: 50px;
+  z-index: 1;
 }
 
 
@@ -27,10 +29,9 @@ main {
 header {
   position: relative;
   text-align: center;
-
+  z-index: 2;
   transform: rotate(0);
   transform-style: preserve-3d;
-  transform: rotateX(-9.30175deg) rotateY(5.41667deg);
   backface-visibility: hidden;
 
   .location-box,
@@ -47,6 +48,7 @@ header {
   }
 
   .back-box {
+    z-index: 10;
     transform: rotate(-5deg);
     top: 50px;
     background: #333;
@@ -86,11 +88,13 @@ header {
   }
 
   .logo {
+    pointer-events: none;
     margin-top: -315px;
     transform: translateZ(25px);
   }
 
   .wave {
+    pointer-events: none;
     transform: translateZ(0px);
     max-width: 500px;
     margin-top: -350px;

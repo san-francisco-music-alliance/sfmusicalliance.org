@@ -3,10 +3,9 @@ var el = document.querySelector('.back-box'),
     isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
 function check(e) {
-  console.log(e);
   if(window.scrollY + 20 >= elOffset) {
     el.style.position = 'fixed'
-    el.style.top = '20px';
+    el.style.top = window.scrollY - 75 + 'px';
   }
   else {
     el.style.position = 'absolute'

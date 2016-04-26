@@ -6,10 +6,8 @@ var element = document.querySelector('.three-d'),
 
 
 function handleMove(clientX, clientY){
-    let x = ((0.5 - (clientY / window.innerHeight))) * 25,
+    var x = ((0.5 - (clientY / window.innerHeight))) * 25,
         y = (0.5 - (clientX / window.innerWidth)) * 25 * (-1);
-
-
 
   element.style.transform = 'rotateX(' + x + 'deg) rotateY(' + y + 'deg)';
 }
