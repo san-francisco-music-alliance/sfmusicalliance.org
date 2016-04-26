@@ -1,11 +1,12 @@
 ---
-published: true
 layout: default
+published: true
 permalink: /who
-title: 'Who'
+title: Who
 order: -1
-color: '#c377e0'
+color: "#c377e0"
 ---
+![git.chat.png]({{site.baseurl}}/_pages/git.chat.png)
 
 Want to add yourself here? [Click here!](http://google.com)
 
