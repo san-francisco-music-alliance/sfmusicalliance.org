@@ -5,7 +5,7 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 prose:
-  siteurl: 'http://sfmusicalliance.com/'
+  siteurl: 'http://reimertz.github.io/sfma/'
   media: media
   ignore:
     - CNAME
