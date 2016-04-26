@@ -5,7 +5,12 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 prose:
-  rooturl: '/'
+  rooturl: /_data
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
   metadata:
     _pages:
       - name: "layout"
