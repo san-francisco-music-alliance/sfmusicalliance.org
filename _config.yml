@@ -5,7 +5,6 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 prose:
-  rooturl: /_data
   ignore:
     - index.md
     - _config.yml
