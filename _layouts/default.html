@@ -21,8 +21,8 @@ title: 'SFMA.com'
             <div class="back-box">< go back</div>
           </a>
         </div>
-        <img class="logo" src="/img/logo_text.svg" alt="">
-        <img class="wave" src="/img/wave_color_2.svg" alt="">
+        <img class="logo" src="{{site.baseurl}}/img/logo_text.svg" alt="">
+        <img class="wave" src="{{site.baseurl}}/img/wave_color_2.svg" alt="">
     </header>
 
     <nav class="nav nav-inline">
@@ -35,19 +35,19 @@ title: 'SFMA.com'
             .{{ page.permalink  | replace_first: '/','' }} .location-box {
               background-color: {{ page.color }};
             }
-            a[href="{{ page.permalink }}"] {
+            a[href="{{site.baseurl}}/{{ page.permalink }}"] {
               background-color: {{ page.color }};
               border-bottom: 2px solid white;
             }
 
             body.{{page.permalink | replace_first: '/','' }} a[href="{{ page.permalink }}"],
-            a[href="{{ page.permalink }}"]:hover {
+            a[href="{{site.baseurl}}/{{ page.permalink }}"]:hover {
               color:  {{ page.color }};
               border-bottom: 2px solid {{ page.color }};
               background-color: white;
             }
           </style>
-          <a href="{{ page.permalink }}">{{ page.title }}</a>
+          <a href="{{site.baseurl}}/{{ page.permalink }}">{{ page.title }}</a>
         </div>
       {% endif %}
     {% endfor %}
