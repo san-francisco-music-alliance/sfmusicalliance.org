@@ -1,10 +1,11 @@
 ---
-published: true
 layout: default
+published: true
 permalink: /about
-title: 'About'
-color: '#fecb2e'
+title: About
+color: "#fecb2e"
 ---
+## asdasd
 
 The Primary Goal of the SFMA is to coordinate the SF Music Industry to identify and pursue
 collaborative projects that help ensure the vibrancy, success, and sustainability of the San
@@ -18,4 +19,3 @@ Mayor’s Office of Economic and Workforce Development. The SFMA will support th
 __Leadership Team__
 
 __Advisory Committee__
-
