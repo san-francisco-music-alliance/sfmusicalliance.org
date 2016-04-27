@@ -2,6 +2,7 @@
 @import 'components/labels';
 @import 'components/form';
 @import 'components/button';
+@import 'components/icons';
 @import 'animations';
 
 body {
@@ -14,12 +15,19 @@ body {
   margin-top: 100px;
 }
 
-main {
+.container-fluid {
   position: relative;
   max-width: 730px;
   margin-top: 50px;
   z-index: 1;
 }
+
+.social {
+    text-align: right;
+    a {
+      text-decoration: none;
+    }
+  }
 
 header {
   text-align: center;
