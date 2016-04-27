@@ -1,7 +1,3 @@
----
-title: 'SFMA.com'
----
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,16 +9,18 @@ title: 'SFMA.com'
   <link href='{{ site.url }}/css/main.css' rel='stylesheet' />
 </head>
 <body class="{% if page.title != 'index' %} {{page.permalink | replace_first: '/','' }} {% else %}index{% endif %}">
+  {% if page.title !=  'index' and page.hidden != true %}
+    <a href="{{ site.url }}">
+      <div class="back-box">< go back</div>
+    </a>
+  {% endif %}
   <div class="container">
     <header  class="three-d">
         <div class="circle">
           <div class="location-box">{{ page.title }}</div>
-          <a href="{{ site.github.url }}/">
-            <div class="back-box">< go back</div>
-          </a>
         </div>
-        <img class="logo" src="{{ site.github.url }}/img/logo_text.svg" alt="">
-        <img class="wave" src="{{ site.github.url }}/img/wave_color_2.svg" alt="">
+        <img class="logo" src="{{ site.url }}/img/logo_text.svg" alt="">
+        <img class="wave" src="{{ site.url }}/img/wave_color_2.svg" alt="">
     </header>
 
     <nav class="nav nav-inline">
@@ -35,19 +33,19 @@ title: 'SFMA.com'
             .{{ page.permalink  | replace_first: '/','' }} .location-box {
               background-color: {{ page.color }};
             }
-            a[href="{{ site.github.url }}/{{ page.permalink }}"] {
+            a[href="{{ site.url }}{{ page.permalink }}"] {
               background-color: {{ page.color }};
               border-bottom: 2px solid white;
             }
 
             body.{{page.permalink | replace_first: '/','' }} a[href="{{ page.permalink }}"],
-            a[href="{{ site.github.url }}/{{ page.permalink }}"]:hover {
+            a[href="{{ site.url }}{{ page.permalink }}"]:hover {
               color:  {{ page.color }};
               border-bottom: 2px solid {{ page.color }};
               background-color: white;
             }
           </style>
-          <a href="{{ site.github.url }}/{{ page.permalink }}">{{ page.title }}</a>
+          <a href="{{ site.url }}{{ page.permalink }}">{{ page.title }}</a>
         </div>
       {% endif %}
     {% endfor %}
@@ -80,8 +78,10 @@ title: 'SFMA.com'
   <footer>
     page made by <a href="http://reimertz.co">reimertz.co</a>
   </footer>
-  <script src="{{ site.github.url }}/js/scrollCheck.js"></script>
-  <script src="{{ site.github.url }}/js/translater.js"></script>
+  {% if page.title !=  'index' and page.hidden != true %}
+    <script src="{{ site.url }}/js/scrollCheck.js"></script>
+  {% endif %}
+  <script src="{{ site.url }}/js/translater.js"></script>
   <style>
     body.{{ page.permalink | replace_first: '/','' }} {
       color: {{ page.color }};
