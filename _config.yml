@@ -4,8 +4,9 @@ kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
   hard_wrap: false
 highlighter: rouge
+url: 'http://sfmusicalliance.com'
 prose:
-  siteurl: 'http://reimertz.github.io/sfma/'
+  siteurl: 'http://sfmusicalliance.com'
   media: media
   ignore:
     - CNAME
