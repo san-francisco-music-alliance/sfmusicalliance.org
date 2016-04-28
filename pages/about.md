@@ -20,6 +20,6 @@ __Leadership Team__
 
 __Advisory Committee__
 
-__Pierre Reimertz__
+__Tester Mctesty__
 
 
