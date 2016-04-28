@@ -4609,7 +4609,10 @@ header {
     background: #5fc9f8;
     border-radius: 200px;
     display: inline-block;
-    transform: translateZ(-25px); }
+    transform: translateZ(-25px);
+    transition: 200ms; }
+    header .circle:hover {
+      opacity: 0.75; }
   header .logo {
     pointer-events: none;
     margin-top: -315px;
