@@ -4,7 +4,7 @@ published: true
 permalink: /contact
 title: Contact
 order: 0
-color: "#5fc9f8"
+color: "#147efb"
 ---
 
 Like to come in contact with us? Please send us an email.
