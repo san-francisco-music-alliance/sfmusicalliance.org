@@ -3,7 +3,7 @@ layout: default
 published: true
 permalink: /who
 title: Who
-order: -1
+order: 2
 color: "#c377e0"
 ---
 Want to add yourself here? [Click here!](http://google.com)

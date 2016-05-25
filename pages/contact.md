@@ -3,7 +3,7 @@ layout: default
 published: true
 permalink: /contact
 title: Contact
-order: 0
+order: 5
 color: "#147efb"
 ---
 

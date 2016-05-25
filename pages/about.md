@@ -4,6 +4,7 @@ published: true
 permalink: /about
 title: About
 color: "#fecb2e"
+order: 4
 ---
 
 The Primary Goal of the SFMA is to coordinate the SF Music Industry to identify and pursue
