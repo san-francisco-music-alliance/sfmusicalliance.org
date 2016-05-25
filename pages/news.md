@@ -9,23 +9,7 @@ order: 0
 
 ## News
 
-[Mount Everest victims' grueling final hours](http://www.cnn.com/2016/05/24/politics/hillary-clinton-donald-trump-populist-housing-crisis/index.html)
-
-kjsadkjhaskdjh kja dkjads kjahs dkjahd kjahd kjahsd kjh kjahds kjahd.
-
-* asd
-* asdasdas
-* amda,mdaksdhkj
-
-kjsadkjhaskdjh kja dkjads kjahs dkjahd kjahd kjahsd kjh kjahds kjahd.
-
-[Mount Everest victims' grueling final hours](http://www.cnn.com/2016/05/24/politics/hillary-clinton-donald-trump-populist-housing-crisis/index.html)
-
-[Mount Everest victims' grueling final hours](http://www.cnn.com/2016/05/24/politics/hillary-clinton-donald-trump-populist-housing-crisis/index.html)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mUFxukhNaU4" frameborder="0" allowfullscreen></iframe>
-
-[Mount Everest victims' grueling final hours](http://www.cnn.com/2016/05/24/politics/hillary-clinton-donald-trump-populist-housing-crisis/index.html)
+Hello asdjaldjalkdjlakdjslkajsd
 
 ## Instagram @sfma
 
