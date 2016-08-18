@@ -16,6 +16,15 @@ function start() {
   document.body.addEventListener(moveEvent, function(event) {
     handleMove(event.clientX, event.clientY);
   });
+
+  document.body.addEventListener('mouseenter', function(event) {
+    element.style.transition = '100ms';
+  });
+
+  document.body.addEventListener('mouseleave', function(event) {
+    element.style.transition = '500ms';
+    element.style.transform = '';
+  });
 }
 
 if(!isMobile) {
