@@ -7,6 +7,9 @@ color: '#fecb2e'
 ---
 
 <script>
-var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-if(!isMobile) window.location = document.querySelector('nav a').href
+//So that we see the initial animation
+setTimeout(function() {
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  if(!isMobile) window.location = document.querySelector('nav a').href
+}, 1000)
 </script>
