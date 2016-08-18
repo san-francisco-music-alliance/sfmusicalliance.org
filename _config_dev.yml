@@ -25,7 +25,7 @@ prose:
     - /_layouts
     - /_includes
   metadata:
-    _pages:
+    pages:
       - name: "layout"
         field:
           element: "hidden"
@@ -50,7 +50,7 @@ prose:
           element: "checkbox"
           label: "Published?"
           value: ""
-    news:
+    _news:
       - name: "layout"
         field:
           element: "hidden"
