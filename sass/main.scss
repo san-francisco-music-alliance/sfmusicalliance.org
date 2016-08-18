@@ -31,15 +31,8 @@ body {
     padding-bottom: 30px;
     position: relative;
 
-    &:after {
-      content: '';
-      width: 70%;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      margin-left: 15%;
-      height: 2px;
-      background: rgba(0,0,0,0.3);
+    h4 {
+      text-decoration: underline;
     }
   }
 
@@ -51,9 +44,7 @@ body {
    margin-bottom: 20px;
   }
 
-  h4 {
-   margin-bottom: 15px;
-  }
+
 
   img {
     width: 100%;
