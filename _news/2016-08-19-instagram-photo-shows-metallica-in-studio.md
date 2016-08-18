@@ -1,6 +1,6 @@
 ---
 layout: default
-published: false
+published: true
 title: Instagram Photo Shows Metallica In-Studio
 ---
 ![metallica-live.jpg]({{site.baseurl}}/media/metallica-live.jpg)
