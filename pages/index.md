@@ -11,5 +11,5 @@ color: '#fecb2e'
 setTimeout(function() {
   var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   if(!isMobile) window.location = document.querySelector('nav a').href
-}, 1000)
+}, 1750)
 </script>
