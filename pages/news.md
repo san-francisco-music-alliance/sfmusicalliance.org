@@ -13,7 +13,7 @@ order: 0
 <iframe src="https://snapwidget.com/embed/238774" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
 </article>
 
-{% for n in site.news  | sort: 'date' %}
+{% for n in site.news  reversed %}
 <article>
   <h4> {{ n.title }} </h4>
   <date>{{ n.date | date: '%B %d, %Y' }}</date>
