@@ -4,54 +4,54 @@
   100% {
     opacity: 1; } }
 
-body.news header > * {
+body.index header > * {
   animation-fill-mode: both;
   animation-name: fadeIn;
   animation-timing: ease;
   opacity: 0;
   animation-duration: 500ms; }
 
-body.news header .logo {
+body.index header .logo {
   animation-delay: 250ms; }
 
-body.news header .wave {
+body.index header .wave {
   animation-delay: 500ms; }
 
-body.news nav .nav-item {
+body.index nav .nav-item {
   opacity: 0;
   animation-fill-mode: both;
   animation-name: fadeIn;
   animation-duration: 500ms; }
-  body.news nav .nav-item:nth-child(1) {
+  body.index nav .nav-item:nth-child(1) {
     animation-delay: 75ms; }
-  body.news nav .nav-item:nth-child(2) {
+  body.index nav .nav-item:nth-child(2) {
     animation-delay: 150ms; }
-  body.news nav .nav-item:nth-child(3) {
+  body.index nav .nav-item:nth-child(3) {
     animation-delay: 225ms; }
-  body.news nav .nav-item:nth-child(4) {
+  body.index nav .nav-item:nth-child(4) {
     animation-delay: 300ms; }
-  body.news nav .nav-item:nth-child(5) {
+  body.index nav .nav-item:nth-child(5) {
     animation-delay: 375ms; }
-  body.news nav .nav-item:nth-child(6) {
+  body.index nav .nav-item:nth-child(6) {
     animation-delay: 450ms; }
-  body.news nav .nav-item:nth-child(7) {
+  body.index nav .nav-item:nth-child(7) {
     animation-delay: 525ms; }
-  body.news nav .nav-item:nth-child(8) {
+  body.index nav .nav-item:nth-child(8) {
     animation-delay: 600ms; }
-  body.news nav .nav-item:nth-child(9) {
+  body.index nav .nav-item:nth-child(9) {
     animation-delay: 675ms; }
-  body.news nav .nav-item:nth-child(10) {
+  body.index nav .nav-item:nth-child(10) {
     animation-delay: 750ms; }
-  body.news nav .nav-item:nth-child(11) {
+  body.index nav .nav-item:nth-child(11) {
     animation-delay: 825ms; }
-  body.news nav .nav-item:nth-child(12) {
+  body.index nav .nav-item:nth-child(12) {
     animation-delay: 900ms; }
-  body.news nav .nav-item:nth-child(13) {
+  body.index nav .nav-item:nth-child(13) {
     animation-delay: 975ms; }
-  body.news nav .nav-item:nth-child(14) {
+  body.index nav .nav-item:nth-child(14) {
     animation-delay: 1050ms; }
 
-body.news main {
+body.index main {
   opacity: 0;
   animation-fill-mode: both;
   animation-name: fadeIn;
