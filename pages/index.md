@@ -7,4 +7,6 @@ color: '#fecb2e'
 ---
 
 <script>
-window.location = window.location + '/news'
+var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+if(!isMobile) window.location = document.querySelector('nav a').href
+</script>

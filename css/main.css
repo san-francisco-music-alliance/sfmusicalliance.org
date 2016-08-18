@@ -4412,7 +4412,7 @@ hr {
 .back-box {
   z-index: 1000;
   transform: rotate(-5deg);
-  top: 150px;
+  top: 120px;
   left: 15%;
   background: #333; }
   .back-box:hover {

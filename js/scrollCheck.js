@@ -4,13 +4,13 @@ var el = document.querySelector('.back-box'),
     is
 
 function check(e) {
-  if(window.scrollY > 125) {
+  if(window.scrollY > 105) {
     el.style.position = 'fixed';
-    el.style.top = '25px';
+    el.style.top = '20px';
   }
   else {
     el.style.position = 'absolute';
-    el.style.top = '150px';
+    el.style.top = '120px';
   }
 }
 
