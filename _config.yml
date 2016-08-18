@@ -50,7 +50,7 @@ prose:
           element: "checkbox"
           label: "Published?"
           value: ""
-    _news:
+    news:
       - name: "layout"
         field:
           element: "hidden"
