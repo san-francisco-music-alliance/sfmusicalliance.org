@@ -1,7 +1,7 @@
 ---
 published: true
 layout: default
-permalink: /sfma-presents
+permalink: /sfma-presents/
 title: 'SFMA Presents'
 color: '#fc3158'
 order: 2

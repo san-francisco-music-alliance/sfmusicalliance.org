@@ -1,7 +1,7 @@
 ---
 layout: default
 published: true
-permalink: /who
+permalink: /who/
 title: Who
 order: 2
 color: "#c377e0"

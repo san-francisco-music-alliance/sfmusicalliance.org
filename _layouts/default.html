@@ -8,7 +8,7 @@
   <link href='https://fonts.googleapis.com/css?family=Futura:400,600,300' rel='stylesheet' type='text/css'>
   <link href='{{ site.url }}/css/main.css' rel='stylesheet' />
 </head>
-<body class="{% if page.title != 'index' %} {{page.permalink | replace_first: '/','' }} {% else %}index{% endif %}">
+<body class="{% if page.title != 'index' %} {{page.permalink | replace: '/','' }} {% else %}index{% endif %}">
   {% if page.title !=  'index' and page.hidden != true %}
     <a href="{{ site.url }}">
       <div class="back-box">< go back</div>
@@ -45,7 +45,7 @@
         <div class="nav-item">
           <style>
 
-            .{{ page.permalink  | replace_first: '/','' }} .location-box {
+            .{{ page.permalink  | replace: '/','' }} .location-box {
               background-color: {{ page.color }};
             }
             a[href="{{ site.url }}{{ page.permalink }}"] {
@@ -53,7 +53,7 @@
               border-bottom: 2px solid white;
             }
 
-            body.{{page.permalink | replace_first: '/','' }} a[href="{{ page.permalink }}"],
+            body.{{page.permalink | replace: '/','' }} a[href="{{ page.permalink }}"],
             a[href="{{ site.url }}{{ page.permalink }}"]:hover {
               color:  {{ page.color }};
               border-bottom: 2px solid {{ page.color }};
@@ -67,6 +67,7 @@
 
     </nav>
     <main class='container-fluid'>
+
       <header>
         {% if page.title !=  'index' %}
           <style>
@@ -87,18 +88,16 @@
 
         {% endif %}
       </header>
+
       {{content}}
     </main>
   </div>
-  <footer>
-    page made by <a href="http://reimertz.co">reimertz.co</a>
-  </footer>
   {% if page.title !=  'index' and page.hidden != true %}
     <script src="{{ site.url }}/js/scrollCheck.js"></script>
   {% endif %}
   <script src="{{ site.url }}/js/translater.js"></script>
   <style>
-    body.{{ page.permalink | replace_first: '/','' }} {
+    body.{{ page.permalink | replace: '/','' }} {
       color: {{ page.color }};
     }
   </style>

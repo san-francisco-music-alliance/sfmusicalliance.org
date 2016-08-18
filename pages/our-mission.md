@@ -1,7 +1,7 @@
 ---
 published: false
 layout: default
-permalink: /our-mission
+permalink: /our-mission/
 title: 'Our Mission'
 color: '#fd9426'
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 published: true
-permalink: /contact
+permalink: /contact/
 title: Contact
 order: 5
 color: "#147efb"

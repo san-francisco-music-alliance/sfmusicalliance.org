@@ -1,7 +1,7 @@
 ---
 published: false
 layout: default
-permalink: /markdown
+permalink: /markdown/
 title: 'markdown'
 ---
 

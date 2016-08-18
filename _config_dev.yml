@@ -5,6 +5,8 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 url: 'http://localhost:4000'
+collections:
+  - news
 prose:
   siteurl: 'http://localhost:4000'
   media: media

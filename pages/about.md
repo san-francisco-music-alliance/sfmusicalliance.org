@@ -1,7 +1,7 @@
 ---
 layout: default
 published: true
-permalink: /about
+permalink: /about/
 title: About
 color: "#fecb2e"
 order: 4
