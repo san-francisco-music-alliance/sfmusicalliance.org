@@ -4597,15 +4597,15 @@ body {
     position: relative; }
     .container-fluid article h4 {
       text-decoration: underline; }
-  .container-fluid h2 {
-    margin-bottom: 30px; }
-  .container-fluid h3 {
-    margin-bottom: 20px; }
-  .container-fluid img {
-    width: 100%; }
-  .container-fluid p {
-    margin-top: 30px;
-    line-height: 1.5rem; }
+    .container-fluid article h2 {
+      margin-bottom: 30px; }
+    .container-fluid article h3 {
+      margin-bottom: 20px; }
+    .container-fluid article img {
+      width: 100%; }
+    .container-fluid article p {
+      margin-top: 30px;
+      line-height: 1.5rem; }
 
 .social {
   text-align: right; }
