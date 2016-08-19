@@ -7,6 +7,7 @@ highlighter: rouge
 url: 'http://sfmusicalliance.com'
 collections:
   - news
+  - sfmapresents
 prose:
   siteurl: 'http://sfmusicalliance.com'
   media: media
@@ -52,6 +53,21 @@ prose:
           label: "Published?"
           value: ""
     _news:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published?"
+          value: true
+    _sfmapresents:
       - name: "layout"
         field:
           element: "hidden"
