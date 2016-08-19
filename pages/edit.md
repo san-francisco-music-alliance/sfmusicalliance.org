@@ -10,10 +10,12 @@ order: 99999
 <h3>Add</h3>
 <h4>
   <a href="http://prose.io/#san-francisco-music-alliance/sfmusicalliance.org-default/new/master/_news" target="_blank">News</a>
+  <a href="http://prose.io/#san-francisco-music-alliance/sfmusicalliance.org-default/tree/master/_news" target="_blank">(see all)</a>
 </h4>
 
 <h4>
   <a href="http://prose.io/#san-francisco-music-alliance/sfmusicalliance.org-default/new/master/_sfmapresents" target="_blank">SFMA Presents</a>
+  <a href="http://prose.io/#san-francisco-music-alliance/sfmusicalliance.org-default/tree/master/_sfmapresents" target="_blank">(see all)</a>
 </h4>
 
 <h4>
