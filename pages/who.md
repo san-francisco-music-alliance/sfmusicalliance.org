@@ -4,10 +4,8 @@ published: true
 permalink: /who/
 title: Who
 order: 2
-color: "#c377e0"
+color: '#c377e0'
 ---
-Want to add yourself here? [Click here!](http://google.com)
-
 {% for category_hash in site.data.who %}
 {% assign category = category_hash[1] %}
 #### {{category.category}}
