@@ -1,15 +1,11 @@
 ---
-published: true
 layout: default
+published: true
 permalink: /sfma-presents/
-title: 'SFMA Presents'
+title: SFMA Presents
 color: '#fc3158'
 order: 2
 ---
-
-In Progress. Check back soon
-
-
 {% for n in site.sfmapresents  reversed %}
 <article>
   <h4> {{ n.title }} </h4>
@@ -17,4 +13,3 @@ In Progress. Check back soon
   {{ n.content }}
 </article>
 {% endfor %}
-
