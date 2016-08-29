@@ -6,6 +6,7 @@ title: Who
 order: 2
 color: '#c377e0'
 ---
+Malin
 {% for category_hash in site.data.who %}
 {% assign category = category_hash[1] %}
 #### {{category.category}}
