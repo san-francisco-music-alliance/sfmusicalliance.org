@@ -3,7 +3,7 @@ layout: default
 published: true
 permalink: /sfma-presents/
 title: SFMA Presents
-color: '#fc3158'
+color: '#C3573B'
 order: 2
 ---
 {% for n in site.sfmapresents  reversed %}

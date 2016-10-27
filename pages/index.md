@@ -3,7 +3,7 @@ permalink: /index
 published: true
 layout: default
 title: 'index'
-color: '#fecb2e'
+color: '#E4B363'
 ---
 
 <script>

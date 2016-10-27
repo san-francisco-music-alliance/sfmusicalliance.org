@@ -3,7 +3,7 @@ layout: default
 published: true
 permalink: /about/
 title: About
-color: "#fecb2e"
+color: "#E4B363"
 order: 4
 ---
 

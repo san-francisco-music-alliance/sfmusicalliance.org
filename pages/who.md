@@ -4,7 +4,7 @@ published: true
 permalink: /who/
 title: Who
 order: 2
-color: '#c377e0'
+color: '#8F63A5'
 ---
 {% for category_hash in site.data.who %}
 {% assign category = category_hash[1] %}

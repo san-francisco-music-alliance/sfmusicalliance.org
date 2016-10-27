@@ -2,9 +2,9 @@
 layout: default
 published: true
 permalink: /contact/
-title: Contact
+title: Get involved
 order: 5
-color: "#147efb"
+color: "#789EAF"
 ---
 
 Like to come in contact with us? Please send us an email.
@@ -13,6 +13,6 @@ Like to come in contact with us? Please send us an email.
       method="POST">
   <input id="email" type="email" name="_replyto" placeholder="Enter your email" required>
   <input type="hidden" name="_next" value="/thanks" />
-  <textarea id="message" type="text" name="name">Write a Message </textarea>
+  <textarea id="message" type="text" name="name" placeholder="Write a Message"></textarea>
   <input type="submit" value="Send">
 </form>
