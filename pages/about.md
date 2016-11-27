@@ -19,11 +19,9 @@ __Leadership Team__
 __Ambassadors__
 
 <p style="text-align:center;">
+<img src="{{site.baseurl}}/media/RRheadshot%20(1).png">
+<b>Renee Richardson</b>
 
-![]({{site.baseurl}}/media/RRheadshot%20(1).png)
-
-**Renee Richardson**
-
-Renee is best known for her on-air work at KFOG radio in SF, her 17 year career was spent helping to cultivate and promote the Bay Area music scene. She created the KFOG Local Scene series, it ran for 13 years, to benefit Music in Schools Today. After an unexpected showing of the door by Cumulus Media, Renee has moved on to become Director of Development for Blue Bear School of Music in San Francisco, a Legacy Business.
+<p>Renee is best known for her on-air work at KFOG radio in SF, her 17 year career was spent helping to cultivate and promote the Bay Area music scene. She created the KFOG Local Scene series, it ran for 13 years, to benefit Music in Schools Today. After an unexpected showing of the door by Cumulus Media, Renee has moved on to become Director of Development for Blue Bear School of Music in San Francisco, a Legacy Business.</p>
 
 </p>
