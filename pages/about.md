@@ -19,7 +19,9 @@ __Leadership Team__
 __Ambassadors__
 
 {% for ambassador in site.data.ambassadors.array %}
-	<h2>{{ambassador.name}}</h2>
-	<img src="{{site.baseurl}}/media/{{ambassador.image}}">
-	<p>{{ambassador.bio}}</p>	
+
+<h2>{{ambassador.name}}</h2>
+<img src="{{site.baseurl}}/media/{{ambassador.image}}">
+<p>{{ambassador.bio}}</p>
+
 {% endfor %}
