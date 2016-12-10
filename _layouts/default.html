@@ -46,7 +46,7 @@
     <nav class="nav nav-inline">
     {% assign sortedPages = site.pages | sort:"order" %}
     {% for page in sortedPages %}
-      {% if page.title !=  'index' and page.hidden != true and page.title != '' %}
+      {% if page.title !=  'index' and page.hidden != true and page.title != '' and page.title != nil %}
         <div class="nav-item">
           <style>
 
