@@ -1,0 +1,163 @@
+@import 'bootstrap4/bootstrap';
+@import 'components/hr';
+@import 'components/labels';
+@import 'components/form';
+@import 'components/button';
+@import 'components/icons';
+@import 'animations';
+
+
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Futura', sans-serif;
+  min-height: 100vh;
+  margin-bottom: 100px;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.container-fluid {
+  position: relative;
+  max-width: 730px;
+  margin-top: 50px;
+  z-index: 1;
+
+  article {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+
+    h4 {
+      text-decoration: underline;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+    }
+
+    h3 {
+     margin-bottom: 20px;
+    }
+
+
+
+    img {
+      width: 100%;
+    }
+
+    p {
+      margin-top: 30px;
+      line-height: 1.5rem;
+    }
+  }
+}
+
+.social {
+    text-align: right;
+
+    a {
+      text-decoration: none;
+      margin-right: 10px;
+    }
+  }
+
+header {
+  text-align: center;
+  z-index: 2;
+  transform: rotate(0);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+
+  img {
+    max-height: 200px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .circle {
+    width: 275px;
+    height: 275px;
+
+    background:  #789EAF;
+    border-radius: 200px;
+    display: inline-block;
+    transform: translateZ(-25px);
+    transition: 200ms;
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
+  .logo {
+    pointer-events: none;
+    margin-top: -315px;
+    transform: translateZ(25px);
+  }
+
+  .wave {
+    pointer-events: none;
+    transform: translateZ(0px);
+    max-width: 500px;
+    margin-top: -350px;
+  }
+
+  @include media-breakpoint-down(md) {
+    .wave {
+      margin-top: -350px;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    .wave {
+      margin-top: -325px;
+    }
+  }
+}
+
+nav {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    text-transform: lowercase;
+    display: block;
+    min-width: 125px;
+    color: white;
+
+    &:active {
+      transition: 100ms;
+      transform: scale(0.9);
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    .nav-item {
+      min-height: 50px;
+      line-height: 50px;
+      display: block !important;
+      width: 100% !important;
+      margin-left: 0 !important;
+    }
+
+    body:not(.index) & {
+      display: none;
+    }
+  }
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 50px;
+  height: 50px;
+  width: 100%;
+
+}

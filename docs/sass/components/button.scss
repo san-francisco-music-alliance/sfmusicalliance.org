@@ -1,0 +1,26 @@
+
+
+.reimertz-btn {
+  text-decoration: none;
+  text-transform: lowercase;
+  display: block;
+  min-width: 125px;
+  text-align: center;
+  cursor: pointer;
+  &:active {
+    transition: 100ms;
+    transform: scale(0.9);
+  }
+
+  @include media-breakpoint-down(sm) {
+    &-red {
+      min-height: 50px;
+      line-height: 50px;
+      display: block !important;
+      width: 100% !important;
+      margin-left: 0 !important;
+    }
+  }
+}
+
+

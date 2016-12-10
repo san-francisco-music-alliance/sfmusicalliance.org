@@ -1,0 +1,38 @@
+.location-box,
+.back-box {
+  transform: translateZ(100px) rotate(-5deg);
+  line-height: 50px;
+  text-transform: uppercase;
+  margin-left: -25px;
+  position: absolute;
+  top: 0;
+  color: white;
+  padding: 0 10px;
+  height: 50px;
+}
+
+.back-box {
+  z-index: 1000;
+  transform: rotate(-5deg);
+  top: 120px;
+  left: 15%;
+  background: #333;
+
+  &:hover {
+    color: #333;
+
+    background: white;
+  }
+
+  body.index & {
+    display: none;
+  }
+
+  @include media-breakpoint-up(sm) {
+    left: 20%;
+  }
+
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+}

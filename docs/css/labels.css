@@ -1,0 +1,31 @@
+.location-box,
+.back-box {
+  transform: translateZ(100px) rotate(-5deg);
+  line-height: 50px;
+  text-transform: uppercase;
+  margin-left: -25px;
+  position: absolute;
+  top: 0;
+  color: white;
+  padding: 0 10px;
+  height: 50px; }
+
+.back-box {
+  z-index: 10;
+  transform: rotate(-5deg);
+  top: 150px;
+  background: #333; }
+  .back-box:hover {
+    color: #333;
+    background: white; }
+  body.index .back-box {
+    display: none; }
+  @media (max-width: 300px) {
+    .back-box .back-box {
+      left: 15%; } }
+  @media (max-width: 350px) {
+    .back-box .back-box {
+      left: 20%; } }
+  @media (max-width: 400px) {
+    .back-box .back-box {
+      left: 25%; } }

@@ -1,0 +1,58 @@
+
+form.contact {
+  text-align: center;
+  input,
+  textarea {
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    border: 5px solid transparent;
+    min-height: 50px;
+    background-color: #789EAF;
+    color: white;
+    padding: 20px;
+    outline: none;
+
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: white;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+      color: white;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+      color: white;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      color: white;
+    }
+    transition: 200ms;
+
+    &:focus {
+      margin-left: 3%;
+    }
+  }
+
+  textarea {
+    resize: none;
+    height: 150px;
+  }
+
+
+  input[type="submit"] {
+    text-align: center;
+    background-color: #C3573B;
+    color: white;
+    transition: 200ms;
+
+    &:focus {
+      margin-left: 1%;
+      width: 98%;
+    }
+    &:active {
+      margin-left: 3%;
+      width: 94%;
+    }
+
+  }
+
+}

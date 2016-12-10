@@ -5,6 +5,7 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 url: 'http://sfmusicalliance.com'
+destination: docs
 collections:
   - news
   - sfmapresents
