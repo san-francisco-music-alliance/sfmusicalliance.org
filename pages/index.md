@@ -1,5 +1,5 @@
 ---
-permalink: /index
+permalink: index.html
 published: true
 layout: default
 title: 'index'
