@@ -6,10 +6,14 @@ title: SFMA Presents
 color: '#C3573B'
 order: 2
 ---
-{% for n in site.sfmapresents  reversed %}
+
+#### Coming soon
+
+<!-- {% for n in site.sfmapresents  reversed %}
 <article>
   <h4> {{ n.title }} </h4>
   <date>{{ n.date | date: '%B %d, %Y' }}</date>
   {{ n.content }}
 </article>
 {% endfor %}
+ -->

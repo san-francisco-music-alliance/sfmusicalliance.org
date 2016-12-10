@@ -7,7 +7,9 @@ color: '#E4B363'
 order: 4
 ---
 
-The Primary Goal of the SFMA is to coordinate the SF Music Industry to identify and pursue
+#### Coming soon
+
+<!-- The Primary Goal of the SFMA is to coordinate the SF Music Industry to identify and pursue
 collaborative projects that help ensure the vibrancy, success, and sustainability of the San
 Francisco music community.
 
@@ -25,3 +27,4 @@ __Ambassadors__
 <p>{{ambassador.bio}}</p>
 
 {% endfor %}
+ -->

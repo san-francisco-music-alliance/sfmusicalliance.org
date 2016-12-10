@@ -6,7 +6,10 @@ title: Who
 order: 2
 color: '#8F63A5'
 ---
-{% for category_hash in site.data.who %}
+
+#### Coming soon
+
+<!-- {% for category_hash in site.data.who %}
 {% assign category = category_hash[1] %}
 #### {{category.category}}
 <ul style="list-style-type: square">
@@ -26,3 +29,4 @@ color: '#8F63A5'
   {% endfor %}
 </ul>
 {% endfor %}
+ -->
