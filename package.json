@@ -1,8 +1,7 @@
 {
-  "name": "julian-sider",
+  "name": "sfma",
   "version": "1.0.0",
-  "description": "Starter is a barebones starting point for responsive sites built on Jekyll and with site management in [prose](http://prose.io). To get started, Fork this repo and [install Jekyll](http://jekyllrb.com/docs/installation).",
-  "main": "index.js",
+  "description": "San Francisco Music Alliance website",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "css": "node-sass sass/main.scss -o css",

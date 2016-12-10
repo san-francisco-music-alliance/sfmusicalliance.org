@@ -9,8 +9,6 @@
   <meta http-equiv="pragma" content="no-cache" />
   <meta charset='UTF-8'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-
-  <link href='https://fonts.googleapis.com/css?family=Futura:400,600,300' rel='stylesheet' type='text/css'>
   <link href='{{ site.url }}/css/main.css' rel='stylesheet' />
 </head>
 <body class="{% if page.title != 'index' %} {{page.permalink | replace: '/','' }} {% else %}index{% endif %}">
@@ -98,9 +96,9 @@
     </main>
   </div>
   {% if page.title !=  'index' and page.hidden != true %}
-    <script src="{{ site.url }}/js/scrollCheck.js"></script>
+    <script defer src="{{ site.url }}/js/scrollCheck.js"></script>
   {% endif %}
-  <script src="{{ site.url }}/js/translater.js"></script>
+  <script defer src="{{ site.url }}/js/translater.js"></script>
   <style>
     body.{{ page.permalink | replace: '/','' }} {
       color: {{ page.color }};
