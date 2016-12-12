@@ -89,7 +89,9 @@ header {
     border-radius: 200px;
     display: inline-block;
     transform: translateZ(-25px);
-    transition: 200ms;
+    transform-style: preserve-3d;
+    transition: transform 200ms;
+
 
     &:hover {
       opacity: 0.75;
@@ -159,5 +161,53 @@ footer {
   margin-top: 50px;
   height: 50px;
   width: 100%;
+}
 
+
+summary {
+  outline: none;
+  cursor: pointer;
+}
+
+.about-lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about-list-left,
+.about-list-right {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  padding: 5%;
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  details {
+    font-size: 12px;
+    white-space: pre-line;
+  }
+
+  summary {
+    font-size: 14px;
+  }
+
+  .list-category {
+    text-decoration: underline;
+    font-size: 20px;
+  }
+
+  img {
+    max-width: 45%;
+  }
+
+  .name {
+
+  }
 }
