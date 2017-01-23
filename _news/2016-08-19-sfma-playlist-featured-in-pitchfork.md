@@ -1,8 +1,8 @@
 ---
 layout: default
-published: true
+published: false
 title: SFMA Playlist featured in Pitchfork
 ---
 ![penguin.jpg]({{site.baseurl}}/media/penguin.jpg)
 
-Great review from da Pitchfork for this Months Playlist. Special shoutouts to The Seshen and Cool Ghouls. 
+Great review from da Pitchfork for this Months Playlist. Special shoutouts to The Seshen and Cool Ghouls.
