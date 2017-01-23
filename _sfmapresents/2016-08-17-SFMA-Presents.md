@@ -1,8 +1,8 @@
 ---
 layout: default
 category: news
-published: true
-title: "SFMA Present's Playlist - Launched Today 10/1/2016!"
+published: false
+title: SFMA Present's Playlist - Launched Today 10/1/2016!
 ---
 ![This is an Image with this title](https://goodwerks.files.wordpress.com/2015/08/window2.jpg)
 
