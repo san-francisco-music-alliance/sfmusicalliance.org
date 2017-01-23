@@ -7,7 +7,9 @@ order: 5
 color: "#789EAF"
 ---
 
-Like to come in contact with us? Please send us an email.
+We are here for you. We're working to make the music industry here a little bit stronger and would love your input and/or help.
+
+Ideas? Partnerships? Resources? Potential Ambassadors? Feel free to ask or suggest anything. We're listening.
 
 <form class="contact" action="https://formspree.io/joedbarham@gmail.com"
       method="POST">

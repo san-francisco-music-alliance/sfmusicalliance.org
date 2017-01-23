@@ -167,6 +167,7 @@ footer {
 summary {
   outline: none;
   cursor: pointer;
+  user-select: none;
 }
 
 .about-lists {
@@ -208,6 +209,21 @@ summary {
   }
 
   .name {
+
+  }
+}
+
+
+section.who {
+  display: flex;
+  flex-direction: column;
+
+  .empty {
+    order: 1337;
+
+    summary {
+      opacity: 0.75;
+    }
 
   }
 }

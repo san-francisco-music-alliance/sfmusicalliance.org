@@ -4,8 +4,15 @@
   "description": "San Francisco Music Alliance website",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "node-sass sass/main.scss -o css",
-    "css:watch": "npm run css && node-sass sass/main.scss -wo css"
+    "=================================== ": "===================================",
+    "css:build": "node-sass sass/main.scss -o css",
+    "css:watch": "npm run css:build && node-sass sass/main.scss -wo css",
+    "===================================  ": "==================================",
+    "build:production": "npm run css:build && jekyll build --config _config.yml",
+    "build:localhost": "npm run css:build && jekyll build --config _config.localhost.yml",
+    "===================================   ": "=================================",
+    "dev": "npm run build:localhost && parallelshell 'jekyll serve --config _config.localhost.yml'  'npm run css:watch'",
+    "production": "npm run build:production"
   },
   "repository": {
     "type": "git",
@@ -19,5 +26,8 @@
   "homepage": "https://github.com/prose/starter#readme",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.2"
+  },
+  "devDependencies": {
+    "parallelshell": "^2.0.0"
   }
 }

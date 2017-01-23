@@ -7,10 +7,21 @@ order: 2
 color: '#8F63A5'
 ---
 
+Please send us your info if you'd like to be included.
+
+We're trying to compile everyone involved in the SF music industry in an attempt to communicate better and create more opportunity for one another.
+
+
+<section class="who">
+
 {% for category_hash in site.data.who %}
 {% assign category = category_hash[1] %}
 
+{% if category.members %}
 <details>
+{% else %}
+<details class="empty">
+{% endif %}
   <summary>
     <big>{{category.category}}</big>
   </summary>
@@ -37,5 +48,9 @@ color: '#8F63A5'
     {% endif %}
   </ul>
 </details>
+
 {% endfor %}
+
+</section>
+
 

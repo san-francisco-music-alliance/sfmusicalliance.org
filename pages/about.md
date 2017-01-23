@@ -25,10 +25,12 @@ music industry and community organizations. In partnership with the San Francisc
     <li>
       <p class="name">{{ambassador.name}}</p>
       <img src="{{site.baseurl}}/media/{{ambassador.image}}" />
-      <details>
-        <summary>info</summary>
-        {{ambassador.bio}}
-      </details>
+      {% if ambassador.bio %}
+        <details>
+          <summary>info</summary>
+          {{ambassador.bio}}
+        </details>
+      {% endif%}
     </li>
   {% endfor %}
 </ul>
@@ -37,14 +39,16 @@ music industry and community organizations. In partnership with the San Francisc
   <li>
     <p class="list-category">Leadership Team</p>
   </li>
-  {% for ambassador in site.data.about.leaders.array %}
+  {% for leader in site.data.about.leaders.array %}
     <li>
-      <p class="name">{{ambassador.name}}</p>
-      <img src="{{site.baseurl}}/media/{{ambassador.image}}" />
-      <details>
-        <summary>info</summary>
-        {{ambassador.bio}}
-      </details>
+      <p class="name">{{leader.name}}</p>
+      <img src="{{site.baseurl}}/media/{{leader.image}}" />
+      {% if leader.bio %}
+        <details>
+          <summary>info</summary>
+          {{leader.bio}}
+        </details>
+      {% endif%}
     </li>
   {% endfor %}
 
@@ -55,10 +59,12 @@ music industry and community organizations. In partnership with the San Francisc
     <li>
       <p class="name">{{ec.name}}</p>
       <img src="{{site.baseurl}}/media/{{ec.image}}" />
-      <details>
-        <summary>info</summary>
-        {{ec.bio}}
-      </details>
+      {% if ec.bio %}
+        <details>
+          <summary>info</summary>
+          {{ec.bio}}
+        </details>
+      {% endif%}
     </li>
   {% endfor %}
 
@@ -71,10 +77,12 @@ music industry and community organizations. In partnership with the San Francisc
       {% if oewd.image %}
         <img src="{{site.baseurl}}/media/{{oewd.image}}" />
       {% endif %}
-      <details>
-        <summary>info</summary>
-        {{0.bio}}
-      </details>
+      {% if oewd.bio %}
+        <details>
+          <summary>info</summary>
+          {{oewd.bio}}
+        </details>
+      {% endif%}
     </li>
   {% endfor %}
 </ul>
