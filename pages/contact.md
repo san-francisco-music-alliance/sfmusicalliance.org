@@ -4,10 +4,10 @@ published: true
 permalink: /contact/
 title: Get involved
 order: 5
-color: "#789EAF"
+color: '#789EAF'
 ---
 
-We are here for you. We're working to make the music industry here a little bit stronger and would love your input and/or help.
+We are here for you and would love your input and/or help.
 
 Ideas? Partnerships? Resources? Potential Ambassadors? Feel free to ask or suggest anything. We're listening.
 
