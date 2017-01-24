@@ -34,7 +34,7 @@ order: 99999
 {% assign sortedPages = site.pages | sort:"order" %}
 {% for page in sortedPages %}
   {% if page.title !=  'index' and page.hidden != true %}
-<h4><a href="http://prose.io/#san-francisco-music-alliance/sfmusicalliance.org/edit/master/{{ page.path }}" target="_blank">{{ page.path }}</a></h4>
+<h4><a href="http://prose.io/#san-francisco-music-alliance/sfmusicalliance.org/edit/master/{{ page.path }}" target="_blank">{{ page.title }}</a></h4>
   {% endif %}
 {% endfor %}
 </p>
