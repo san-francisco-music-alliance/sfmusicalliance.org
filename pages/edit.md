@@ -22,12 +22,12 @@ order: 99999
 <p>
 <h3>Edit Data</h3>
 <h4>
+  <a href="http://prose.io/#san-francisco-music-alliance/sfmusicalliance.org/tree/master/_data/who" target="_blank">Who listings</a>
+</h4>
+<h4>
   <a href="http://prose.io/#san-francisco-music-alliance/sfmusicalliance.org/tree/master/_data/about" target="_blank">About listings</a>
 </h4>
 
-<h4>
-  <a href="http://prose.io/#san-francisco-music-alliance/sfmusicalliance.org/tree/master/_data/who" target="_blank">Who listings</a>
-</h4>
 </p>
 
 <p>
