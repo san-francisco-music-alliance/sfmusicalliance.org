@@ -8,10 +8,6 @@ order: 0
 ---
 
 
-
-## This is joe
-
-
 <!-- don't write anything below here -->
 
 {% for n in site.news reversed %}
