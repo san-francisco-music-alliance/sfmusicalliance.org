@@ -32,7 +32,9 @@ order: 99999
 {% endfor %}
 
 
+
 <h3>Upload images</h3>
+
 <h4>
   <a href="https://github.com/san-francisco-music-alliance/sfmusicalliance.org/tree/master/media" target="_blank">upload to media/</a>
 </h4>
