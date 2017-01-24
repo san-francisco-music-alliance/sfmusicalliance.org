@@ -9,3 +9,6 @@ Great news!! Playlist #1 is out now. Postcards are currently being distrubuted t
 
 <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Ajoebarham%3Aplaylist%3A7cHZQcUgRPEAP4j2oVww8e" width="100%" height="380" 
 frameborder="0" allowtransparency="true"></iframe>
+
+![SFMA_Postcard_4x6_V3_web_1.jpg]({{site.baseurl}}/media/SFMA_Postcard_4x6_V3_web_1.jpg)
+
