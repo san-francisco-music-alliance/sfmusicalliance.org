@@ -39,8 +39,13 @@ order: 99999
 
 
 
-<h3>Upload/Download images</h3>
+<h3>Upload/Download Images</h3>
 
 <h4>
-  <a href="https://github.com/san-francisco-music-alliance/sfmusicalliance.org/tree/master/media" target="_blank">upload to media/</a>
+  <a href="https://github.com/san-francisco-music-alliance/sfmusicalliance.org/upload/master/media" target="_blank">upload</a>
 </h4>
+<h4>
+  <a href="https://github.com/san-francisco-music-alliance/sfmusicalliance.org/tree/master/media" target="_blank">download</a>
+</h4>
+
+
