@@ -1,6 +1,6 @@
 ---
 layout: default
-published: true
+published: false
 title: SFMA Playlist featured in Pitchfork
 ---
 ![penguin.jpg]({{site.baseurl}}/media/penguin.jpg)
