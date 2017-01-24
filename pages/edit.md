@@ -32,6 +32,16 @@ order: 99999
 {% endfor %}
 
 
+<h3>Data</h3>
+
+{% assign sortedPages = site.data | sort:"order" %}
+{% for page in sortedPages %}
+  {% if page.title !=  'index' and page.hidden != true %}
+<h4><a href="http://prose.io/#san-francisco-music-alliance/sfmusicalliance.org/edit/master/{{ page.path }}" target="_blank">{{ page.path }}</a></h4>
+  {% endif %}
+{% endfor %}
+
+
 
 <h3>Upload images</h3>
 
