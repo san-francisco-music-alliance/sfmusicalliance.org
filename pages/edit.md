@@ -7,7 +7,7 @@ color: '#fecb2e'
 hidden: true
 order: 99999
 ---
-<h3>Add</h3>
+<h3>Add content</h3>
 <h4>
   <a href="http://prose.io/#san-francisco-music-alliance/sfmusicalliance.org/new/master/_news" target="_blank">News</a>
   <a href="http://prose.io/#san-francisco-music-alliance/sfmusicalliance.org/tree/master/_news" target="_blank"><i>(see all)</i></a>
@@ -18,11 +18,17 @@ order: 99999
   <a href="http://prose.io/#san-francisco-music-alliance/sfmusicalliance.org/tree/master/_sfmapresents" target="_blank"><i>(see all)</i></a>
 </h4>
 
+
+<h4>
+  <a href="http://prose.io/#san-francisco-music-alliance/sfmusicalliance.org/tree/master/_data/about" target="_blank">About</a>
+</h4>
+
+
 <h4>
   <a href="http://prose.io/#san-francisco-music-alliance/sfmusicalliance.org/tree/master/_data/who" target="_blank">Who</a>
 </h4>
 
-<h3>Edit</h3>
+<h3>Edit Templates</h3>
 
 {% assign sortedPages = site.pages | sort:"order" %}
 {% for page in sortedPages %}
@@ -32,18 +38,8 @@ order: 99999
 {% endfor %}
 
 
-<h3>Data</h3>
 
-{% assign sortedData = site.data | sort:"order" %}
-{% for data in sortedData %}
-  {% if data.title !=  'index' and data.hidden != true %}
-<h4><a href="http://prose.io/#san-francisco-music-alliance/sfmusicalliance.org/edit/master/{{ data.path }}" target="_blank">{{ data.path }}</a></h4>
-  {% endif %}
-{% endfor %}
-
-
-
-<h3>Upload images</h3>
+<h3>Upload/Download images</h3>
 
 <h4>
   <a href="https://github.com/san-francisco-music-alliance/sfmusicalliance.org/tree/master/media" target="_blank">upload to media/</a>
