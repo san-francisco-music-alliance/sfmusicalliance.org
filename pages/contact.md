@@ -9,7 +9,7 @@ color: '#789EAF'
 
 We are here for you and would love your input and/or help.
 
-Ideas? Partnerships? Resources? Potential Ambassadors? Feel free to ask or suggest anything. We're listening.
+Ideas? Partnerships? Resources? Potential Ambassadors? Donations? Feel free to ask or suggest anything. We're listening.
 
 <form class="contact" action="https://formspree.io/joedbarham@gmail.com"
       method="POST">
