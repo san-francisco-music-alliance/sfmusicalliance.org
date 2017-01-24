@@ -3,7 +3,7 @@ layout: default
 published: true
 title: 'SF Music Alliance Playlist #1'
 ---
-
+Great news!! Playlist #1 is out now. Postcards are currently being distrubuted to businesses all over the City so you can go pick one up and send to a friend. Check back in for updates on all the participating businesses. Listen to the all the amazing Bay Area bands via the full playlist below!! 
 
 ![SFMA_Sticker_3in_V3_web_1.jpg]({{site.baseurl}}/media/SFMA_Sticker_3in_V3_web_1.jpg)
 
