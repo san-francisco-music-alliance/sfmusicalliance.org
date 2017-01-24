@@ -1,7 +1,7 @@
 ---
 layout: default
 published: true
-title: ''
+title: 'SF Music Alliance Playlist #1 '
 ---
 ![SFMA_Sticker_3in_V3_web_1.jpg]({{site.baseurl}}/media/SFMA_Sticker_3in_V3_web_1.jpg)
 
