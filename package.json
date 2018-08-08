@@ -28,6 +28,6 @@
     "bootstrap": "^4.0.0-alpha.2"
   },
   "devDependencies": {
-    "parallelshell": "^2.0.0"
+    "parallelshell": "^3.0.2"
   }
 }

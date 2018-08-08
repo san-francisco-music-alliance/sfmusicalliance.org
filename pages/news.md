@@ -1,6 +1,6 @@
 ---
 layout: default
-published: true
+published: no
 permalink: /news/
 title: News
 color: '#000'
